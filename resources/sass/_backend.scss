@@ -1,0 +1,231 @@
+.bgt{
+    background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.custom-navbar-small{
+    .navbar-logo-small{
+        height: 100px;
+        width: 100px;
+        overflow: hidden;
+        .small-nav-logo{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            &:hover{
+                border: 3px solid #FF5858;
+            }
+        }
+    }
+}
+
+.navbar-logo{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    overflow: hidden;
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    &:hover img{
+        border: 3px solid white;
+    }
+}
+
+.small-nav-link, .small-nav-logout{
+    width: 100px;
+    height: 65px;
+    min-width: 100px;
+}
+
+.small-nav-btn{
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px 18px;
+    background-color: #FF5858;
+}
+
+.nav-link{
+    width: 100px;
+    height: 65px;
+    min-width: 100px;
+}
+
+.nav-btn{
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: white;
+    color: #FF5858;
+}
+
+
+.small-nav-logout-btn{
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px 17px;
+}
+
+.restaurant-card{
+    margin: 150px 0;
+    min-height: 500px;
+    height: 100%;
+    min-width: 475px;
+    background-color: #FF5858;
+    box-shadow: -11px 10px 28px 6px #4D4D4D;
+    padding: 0;
+    box-sizing: border-box;
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .restaurant-img-container{
+        height: 100%;
+        max-height: 100%;
+        overflow: hidden;
+        img{
+            min-height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .restaurant-card {
+      height: 500px;
+    }
+}
+
+.plate-card-show{
+    margin: 150px 0;
+    min-height: 500px;
+    height: 100%;
+    min-width: 475px;
+    background-color: #FF5858;
+    box-shadow: -11px 10px 28px 6px #4D4D4D;
+    padding: 0;
+    box-sizing: border-box;
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .plate-img-container{
+        overflow: hidden;
+        min-height: 100%;
+        img{
+            min-height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .plate-img-container {
+      max-height: 500px;
+      img{
+          max-height: 100%;
+      }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .plate-card-show {
+      height: 500px;
+      .plate-img-container{
+        max-height: 100%;
+      }
+    }
+}
+
+
+.bot{
+    border-color: transparent;
+}
+
+.cover{
+    object-fit: cover;
+    height: 100%;
+}
+.restaurant-title{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.restaurant-info{
+    margin-left: 22%;
+    font-size: 20px;
+    line-height: 60px;
+    list-style-type: none;
+}
+
+.plate-info{
+    margin-left: 15%;
+    width: 75%;
+    font-size: 20px;
+    line-height: 60px;
+    list-style-type: none;
+}
+
+.plate-description{
+    line-height: 25px;
+}
+
+.card-img-custom{
+    height: 200px;
+}
+
+.plates-card-list{
+    list-style-type: none;
+}
+
+
+.custom-navbar, .custom-login-header{
+    background-color: #ff5858;
+}
+
+.custom-navbar{
+    min-width: 110px;
+}
+
+.box{
+    background-color: #ff5858;
+    box-shadow: -11px 10px 28px 6px #4D4D4D;
+    height: 70vh;
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    border-radius: 30px;
+}
+
+.bottone{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    z-index: 10;
+    position: relative;
+    top: 50px;
+    &:hover{
+        border: 3px solid white;
+        transform: scale(1.1);
+    }
+    a{
+        font-size: 50px;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.card-statistic{
+border-radius: 20px;
+background-color: white;
+}
+
+.plate-card{
+    height: 400px;
+}

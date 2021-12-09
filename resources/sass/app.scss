@@ -1,0 +1,23 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// FontAwesome
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+//Custom Style
+
+@import 'backend';
+
+// Generals
+@import "Generals";
+
+// Utils
+@import "Utils";
+
+      
